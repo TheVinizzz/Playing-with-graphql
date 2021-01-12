@@ -1,0 +1,9 @@
+type Query {
+        ola: String
+        dataNow: Date
+        loginUser: User
+        getDiscount: Product
+        numbersSort: [Int!]!
+        getUserss: [User!]!
+        setOneUser(id: ID): User
+    }
