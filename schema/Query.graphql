@@ -1,9 +1,7 @@
+# Pontos de entrada da sua API!
 type Query {
-        ola: String
-        dataNow: Date
-        loginUser: User
-        getDiscount: Product
-        numbersSort: [Int!]!
-        getUserss: [User!]!
-        setOneUser(id: ID): User
-    }
+    usuarios: [Usuario]
+    usuario(id: Int): Usuario
+    perfis: [Perfil]
+    perfil(id: Int): Perfil
+}
